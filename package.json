@@ -1,0 +1,26 @@
+{
+  "name": "speech-to-text-googleapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "speech.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an-2018/speech-to-text-googleapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an-2018/speech-to-text-googleapi/issues"
+  },
+  "homepage": "https://github.com/an-2018/speech-to-text-googleapi#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "linear16": "^1.2.0",
+    "lodash": "^4.17.19"
+  }
+}
