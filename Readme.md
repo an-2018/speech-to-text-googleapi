@@ -1,4 +1,10 @@
 ## Google Speech to text api 
+In this case its covered a simple speech to text api use case to transcript a sample .mp3 audio file.
+To this its used the google-cloud speech api, then its require to setup a projet on [console.cloud](https://console.cloud.google.com/).
+After setting up a projet we need to enable the speech api for that projet on this link [Setup speech api](https://console.cloud.google.com/flows/enableapi?apiid=speech.googleapis.com).
+Having the api enable we create a new service acount on **Api's & Services**  at this link [Service Accounts](https://console.cloud.google.com/iam-admin/serviceaccounts)and we add a new key wich will downoload in this case a json file that serves as a key to use the service on our aplication.
+Having the json file with the key, we will use it on the .env file of our app to make request's to the speech to text api.
+
 Here we start by converting an audio file to wav as one of the required input is:
 - FLAC
 - LINEAR16
