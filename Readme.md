@@ -45,3 +45,4 @@ we will go meet her Wednesday at the train station
 ### References
 - Kaggle dataset - english audio
 [Speech Accent Archive - Parallel English speech samples from 177 countries](https://www.kaggle.com/rtatman/speech-accent-archive)
+- [Tutorial reference](https://www.woolha.com/tutorials/node-js-google-speech-to-text-recognition-api-examples)
